@@ -1,0 +1,94 @@
+body{
+	text-align: center;
+	font-family: 'Baloo', cursive;
+	font-color: orange;
+	font-size: 30px;
+}
+.container {
+	margin-color: red;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 20px red;
+}
+
+.game-board{
+	
+	background-image: url(assets/images/background-wallpapers-26.jpg);
+	height: 400px;
+	margin-top: 250px;
+}
+
+
+
+ /* .underLetter{
+ 	background-image: url(../../assets/images/MOH.jpg);
+ } 
+ */
+
+.hiden{
+	visibility: hidden;
+}
+
+.centered{
+	margin-top: 15px;
+}
+
+.centered-letters{
+	margin-top: 30px;
+}
+
+.row{
+	margin-right: -10px;
+    margin-left: -10px;
+}
+
+
+.block{
+	display: inline-block;
+	width: 46px;
+	height: 40px;
+	background-size: cover;
+	border: 0px;
+	margin-left: -5px;
+	padding: 4px;
+}
+
+.scoreField{
+	margin-top: 30px;
+ 
+}
+
+.container{
+	background-image: url(../../assets/MOH.jpg);
+	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-right: -30px;
+	position: absolute;
+	top:15%;
+	left: 10%;
+	right: 10%;
+	border-color: orange;
+}
+
+#lost{
+	color: red;
+}
+
+.no-display{
+	display: none;
+}
+
+#info{
+	font-size: 28px;
+	color: red;
+}
+
+#infoPanel{
+	margin-bottom: 30px;
+}
+
+#photo{
+	width: 100%;
+	height: auto;
+}
+

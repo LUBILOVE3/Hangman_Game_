@@ -1,1 +1,70 @@
-﻿
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hangman game</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/letters.css">
+	<script src="assets/js/javascript.js"></script>
+</head>
+<body onclick="start(0)">
+	<div class="container">
+		<div class="row" id= "infoPanel">
+		<p><span style="font-color:orange;">WELCOME TO ONLINE HANGMAN! THE BEST HANGMAN GAME EVER!!</span></p>
+					<div class="col-sm-12 col-md-6" id="picture"> </div>
+			<div class="col-sm-12 col-md-6 text-center" id="info"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-8">
+				<div class="row">
+					<div class="col-md-12 centered">
+											
+						<div id="word-line">
+							<span class = "" id="press_and_remove"> <h1">Click to Start</style></h1></span>
+						</div>
+						<div id="restart" class="no-display">
+							<span id="lost"> <h1">You LOST!!</h1></span> 
+							<br><br><br>
+							<span onclick = "restart()">Click Here To Restart</span>
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-md-12 centered-letters">
+							<div class="row" id="alphabetFirst">
+
+							</div>
+							<div class="row" id="alphabetSecond">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3">
+				<div class="remain">
+					Guesses left: <span id="lives">5</span>
+				</div>
+				<div class="hintArea">Hint:
+					Recent US presidents or Field of Study. Score:<span id="score">1 or Zero</span>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div>
+	<a href="#">Score <span class="badge">1 or 0</span></a>
+
+<button class="btn btn-primary" type="button">
+  Play <span class="badge">& Have Some Fun!!</span>
+</button>
+</div>
+
+</body>
+</html>
