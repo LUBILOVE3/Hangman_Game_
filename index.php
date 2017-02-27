@@ -1,2 +1,1 @@
-﻿
-<?php include_once("Redwan_Bio.html"); ?>
+<?php include_once("index.html"); ?>
